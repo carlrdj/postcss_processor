@@ -1,0 +1,20 @@
+:root{
+	--bg-body: #fafafa;
+	--bg-header: #466173;
+	--bg-footer: #273b47;
+	--color-sub-title: #ffffff;
+	--border-feature: #1f313c;
+	--btn-gradient: #fd324e;
+	/*--btn-gradient-start: color(var(--btn-gradient) blackness(30%));*/
+	--btn-gradient-start: #fe344e;
+	/*--btn-gradient-end: color(var(--btn-gradient) lightness(+18%) hue(10%));*/
+	--btn-gradient-end: #ff7250;
+
+	--fontSize: 18px;
+}
+/*--Definiendo las custom media queries--*/
+@custom-media --mobile (max-width: 500px);
+@custom-media --tablet (max-width: 650px);
+@custom-media --desktop (max-width: 800px);
+ 
+@custom-media --retina (-webkit-min-device-pixel-ratio: 2);
